@@ -13,13 +13,13 @@ Menyediakan rule_provider untuk openclash berdasarkan data dari v2fly
         type: http
         behavior: classical
         path: "./rule_provider/Whatsapp.yaml"
-        url: https://raw.githubusercontent.com/dickymuliafiqri/oc_ruler/master/data/whatsapp.yaml
+        url: https://raw.githubusercontent.com/kulo-sinten/Rule_OC/master/data/whatsapp.yaml
         interval: 86400 # Update rules every 24 hours
       1337x:
         type: http
         behavior: classical
         path: "./rule_provider/1337x.yaml"
-        url: https://raw.githubusercontent.com/dickymuliafiqri/oc_ruler/master/data/1337x.yaml
+        url: https://raw.githubusercontent.com/kulo-sinten/Rule_OC/master/data/1337x.yaml
         interval: 86400 # Update rules every 24 hours
     rules:
     # Rules before match global
@@ -42,3 +42,4 @@ Menyediakan rule_provider untuk openclash berdasarkan data dari v2fly
 - https://github.com/hillz2/openclash_adblock
 - https://github.com/v2fly/domain-list-community
 - https://github.com/helmiau/clashrules
+- https://github.com/dickymuliafiqri/oc_ruler
